@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Say hello to my little friend!");
+﻿Console.WriteLine($"First line");
