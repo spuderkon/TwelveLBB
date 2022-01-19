@@ -1,1 +1,1 @@
-﻿Console.WriteLine($"First line");
+﻿Console.WriteLine($"A * B = {a*b}");
