@@ -1,3 +1,4 @@
+
 ﻿    Console.WriteLine("Введите число A");
     int a = int.Parse(Console.ReadLine());
     Console.WriteLine("Введите число B");
@@ -8,25 +9,43 @@
     {
         case 1:
             {
-                Console.WriteLine(addnumbers());
+                Console.WriteLine(addnumbers(a,b));
             }
             break;
         case 2:
             {
-                Console.WriteLine(subtractnumbers());
+                Console.WriteLine(subtractnumbers(a,b));
             }
             break;
         case 3:
             {
-                Console.WriteLine(multilpynumbers());
+                Console.WriteLine(multilpynumbers(a,b));
             }
             break;
         case 4:
             {
-                Console.WriteLine(dividenumbers());
+                Console.WriteLine(dividenumbers(a,b));
             }
             break;
 
         default:
             break;
     }
+
+    int addnumbers(int a, int b)
+    {
+        return a + b;
+    }
+    ﻿int subtractnumbers(int a, int b)
+    {
+        return a - b;
+    }
+    ﻿int multilpynumbers(int a, int b)
+    {
+        return a * b;
+    }
+    double dividenumbers(int a, int b)
+    {
+        return a / b;
+    }
+
