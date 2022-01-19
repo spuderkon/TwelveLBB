@@ -1,1 +1,4 @@
-﻿Console.WriteLine($"A - B = {a - b}");
+﻿int subtractnumbers(int a, int b)
+{
+    return a - b;
+}
