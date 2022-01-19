@@ -1,4 +1,5 @@
 
+
 int addnumbers(int a, int b)
 {
     return a + b;
@@ -6,4 +7,8 @@ int addnumbers(int a, int b)
 ﻿int subtractnumbers(int a, int b)
 {
     return a - b;
+}
+﻿int multilpynumbers(int a, int b)
+{
+    return a * b;
 }
