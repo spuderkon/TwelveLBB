@@ -8,22 +8,22 @@
     {
         case 1:
             {
-                addnumbers();
+                Console.WriteLine(addnumbers());
             }
             break;
         case 2:
             {
-                subtractnumbers();
+                Console.WriteLine(subtractnumbers());
             }
             break;
         case 3:
             {
-                multilpynumbers();
+                Console.WriteLine(multilpynumbers());
             }
             break;
         case 4:
             {
-                dividenumbers();
+                Console.WriteLine(dividenumbers());
             }
             break;
 
